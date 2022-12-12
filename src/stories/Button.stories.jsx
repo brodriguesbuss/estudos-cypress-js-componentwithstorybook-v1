@@ -8,6 +8,7 @@ export default {
   component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
+    handleClick : {action: "handleClick"},
     backgroundColor: { control: 'color' },
   },
 };
