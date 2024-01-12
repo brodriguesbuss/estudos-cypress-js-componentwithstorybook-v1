@@ -1,30 +1,13 @@
-# Getting Started with Storybook and Cypress
+# Repositório de Estudos: Testes Automatizados de Componentes com Cypress e Storybook (versão 1)
 
+Bem-vindo ao meu repositório de estudos! Aqui estou aprofundando meus conhecimentos em testes automatizados de componentes usando Cypress, em conjunto com a utilização de componentes pelo Storybook.
 
-This project was created with the aim of automating component testing.
-In this project, the storybook was used as a tool to create the components and the cypress framework was also used, which is a testing framework.
+## Objetivo do Estudo
+O objetivo principal é explorar e aprimorar técnicas de teste automatizado em nível de componentes usando o Cypress. Além disso, estou aprendendo a integrar esses testes com o Storybook, proporcionando uma abordagem completa para o desenvolvimento e verificação de componentes isoladamente.
 
-## Available Scripts
+## Histórico
+Minha trajetória começou com limitados conhecimentos na criação de componentes web, levando-me a iniciar um projeto React App. Reconheço que essa abordagem pode não ser a mais otimizada para todos os cenários, no entanto, minha jornada de aprendizado e crescimento está em curso e é evidenciada por meio deste repositório. Estou constantemente refinando e expandindo meus conhecimentos neste domínio específico.
 
-In the project directory, you can run:
+## Em Andamento
+Este repositório está em constante evolução à medida que continuo a aprender e experimentar novas abordagens para testar e utilizar componentes de forma eficiente.
 
-### `yarn run cypress open` or `npx cypress open`
-
- - This command will be used to start the graphical interface of cypress, where it is possible to analyze the execution of the cases and the suites already created.
-
-### `yarn storybook` or `npm run storybook`
-
-- This command will be to start the graphic interface of the storybook that contains all the components.
-
-
-### Chromatic - Storybook - Visual Tests
-
- - When committing changes to this project, it is configured with the storybook visual test validator, called Chromatic. The changes will be uploaded to github, but there will be a checklist that must be manually validated. Following this step-by-step:
-
-1. Go to https://www.chromatic.com/start
-
-2. Wait for the new build to be generated. It will be completed when it is in Orange color, indicating that it remains to be revised
-
-3. When opening it, just click on the component to be reviewed. And accept or reject the changes.
-
-4. If you refuse, in github, the commit history will show that this commit was not accepted. The code will not rollout, as it has not been configured, it will only record that it was not accepted by the reviewer.
